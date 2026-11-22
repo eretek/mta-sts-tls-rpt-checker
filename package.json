@@ -1,0 +1,15 @@
+{
+  "name": "mta-sts-tls-rpt-checker",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Check the _mta-sts and _smtp._tls DNS records and compare a pasted MTA-STS policy text with your MX records. The policy file is not fetched automatically.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://siberguvenlik.eretek.com/en/tools/mta-sts-tls-rpt-checker",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
